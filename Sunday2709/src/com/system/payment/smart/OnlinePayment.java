@@ -15,6 +15,8 @@ public interface OnlinePayment {
 	static void paymentPolicy() 
 	{
 		System.out.println("RudyPay's payment policy are: you can directly pay to upi, number and so on");
+		System.out.println(" ");
+		
 		System.out.println("There will not be hidden charges");
 	}
 	
