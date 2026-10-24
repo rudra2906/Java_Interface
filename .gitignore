@@ -1,0 +1,10 @@
+# Ignore everything in the Java workspace by default
+/*
+
+# Always keep the Git ignore rules
+!/.gitignore
+
+# Allow new daily practice folders
+!/Saturday2410/
+!/Day32/
+!/Day33/
