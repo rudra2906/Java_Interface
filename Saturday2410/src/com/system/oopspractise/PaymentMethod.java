@@ -51,7 +51,7 @@ public class PaymentMethod
 		sb.append("\nAmount: ");
 		sb.append(this.getAmount());
 		return sb.toString();
-
+		
 	}
 
 	public void applyPromoCode(double value) 
