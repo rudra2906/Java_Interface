@@ -92,10 +92,13 @@ Safe downcasting, dynamic dispatch, and ClassCastException demonstration: 6 Mark
 Problem 2: Centralized Railway Booking & Quota Allocation Engine (IRCTC)
 Total: 20 Marks
 
-Concepts Tested: Static Initialization Blocks (SIB), Instance Initialization Blocks (IIB), 3-Level Multilevel Constructor Chaining (this() and super()), Overriding Object.equals(Object obj), and Access Modifier Widening.
+Concepts Tested: Static Initialization Blocks (SIB), Instance Initialization Blocks (IIB), 3-Level Multilevel Constructor Chaining (this() and super()), 
+Overriding Object.equals(Object obj), and Access Modifier Widening.
 
 Real-World Context:
-When IRCTC boots, global Indian Railway quota rules load once into memory. Every time an individual booking object is instantiated, an internal audit tracking sequence runs before the constructor completes. If a passenger attempts to re-book an existing itinerary on the same train, the system catches duplicates by overriding equals() using downcasting.
+When IRCTC boots, global Indian Railway quota rules load once into memory. Every time an individual booking object is instantiated, 
+an internal audit tracking sequence runs before the constructor completes. If a passenger attempts to re-book an existing itinerary on the same train,
+ the system catches duplicates by overriding equals() using downcasting.
 
 Architecture & Requirements:
 Level 1 Base Class — RailwayBooking:
