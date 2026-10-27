@@ -168,10 +168,13 @@ Access modifier widening and cumulative fare math: 5 Marks
 Problem 3: Multi-Channel Cart Checkout & Loyalty Engine (Flipkart / Myntra)
 Total: 20 Marks
 
-Concepts Tested: Compile-Time Polymorphism (Method Overloading) + Runtime Polymorphism (Method Overriding via Parent Reference) + Open/Closed Principle (SOLID) + StringBuilder Memory Optimization.
+Concepts Tested: Compile-Time Polymorphism (Method Overloading) + Runtime Polymorphism (Method Overriding via Parent Reference) + 
+Open/Closed Principle (SOLID) + StringBuilder Memory Optimization.
 
 Real-World Context:
-An e-commerce order processing engine supports different order categories (Standard Retail, Grocery/Supermart, and Electronics with mandatory insurance). The central checkout processor must remain closed for modification (Open/Closed Principle) while handling diverse customer billing options via method overloading.
+An e-commerce order processing engine supports different order categories (Standard Retail, Grocery/Supermart, and 
+Electronics with mandatory insurance). The central checkout processor must remain closed for modification (Open/Closed Principle) while
+ handling diverse customer billing options via method overloading.
 
 Architecture & Requirements:
 Base Class — CartOrder:

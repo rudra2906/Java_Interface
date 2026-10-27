@@ -86,8 +86,9 @@ public class CardTransactionRequest extends TransactionRequest {
 
 	@Override
 	public PaymentReceipt processPayment() {
-		// TODO Auto-generated method stub
-		return new CardPaymentReceipt(cardNetwok, cvv, getAmount(), cardNumber, cardNetwok);
+		
+		//CardPaymentReceipt(String receiptId, String status, double finalAmount, String authCode,String cardNetwork) 
+		return new CardPaymentReceipt(cardNetwok, "SUCCESS", getAmount(), cardNumber, cardNetwok);
 	}
 
 
