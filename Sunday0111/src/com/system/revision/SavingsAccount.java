@@ -17,6 +17,9 @@ public class SavingsAccount extends Account{
 		
 		Account acc = new SavingsAccount();
 		acc.accountOpen("Rudransh", 102);
+		
+		SavingsAccount acc2 = new SavingsAccount();
+		acc2.accountOpen(100, "ya hoo");
 
 	}
 

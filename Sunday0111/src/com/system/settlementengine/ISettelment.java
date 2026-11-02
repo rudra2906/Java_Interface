@@ -9,4 +9,21 @@ package com.system.settlementengine;
 
 public interface ISettelment {
 
+	double calculateBrokerage();
+	
+	private boolean digitalSignature(String userName) 
+	{
+		System.out.println("Digital Signature: " + userName);
+		return true;
+	}
+	default void generateContractNote(String userName) 
+	{
+		digitalSignature(userName);
+	} 
+	
+	public static double computeSTT(double turnOver) 
+	{
+		return turnOver * 0.001;
+	}
+	
 }
